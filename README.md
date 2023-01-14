@@ -1,6 +1,6 @@
-# Second Semester 
+# Second Semester
 
-## Practicals
+## Practicals
 
 | Week          | CS2002                    | CS2006 |
 |---------------|---------------------------|--------|
@@ -23,6 +23,5 @@
 | 16 (Exams)    |                           |        |
 | 17            |                           |        |
 
-- ? What day are practicals released / due
 
-
+- **?** What day are practicals released / due?
