@@ -1,0 +1,88 @@
+week 1 (16-20 Jan)
+
+LA01 [admin, Logic: Data Representation in Binary]
+LA02 [Logic: Connectives, Truth Tables, Translation from English]
+CSP01 [Introduction]
+CSP02 [Functions, Variables, Compilation]
+
+week 2 (23-27 Jan)
+
+LA03 [Logic: Truth Tables]
+Tutorial: CSP [Functions, Variables, Compilation]
+LA04 [Logic: Proofs, DPLL]
+CSP03 [Control and Arrays]
+CSP04 [Pointers]
+PRACTICAL (0%): W02-Exercise - Functions, compilation, make, and stacscheck
+
+week 3 (30 Jan - 03 Feb)
+
+LA05 [Logic: Digital Logic, Combinational Circuits]
+Tutorial: LA [DPLL, truth tables, Boolean algebra]
+LA06 [Logic: Universal Logic Circuit, Sequential Circuits]
+CSP05 [Structs and Unions]
+CSP06 [More on pointers (functions, structs), call by reference]
+
+week 4 (6-10 Feb)
+
+LA07 [Logic: More Sequential Circuits]
+Tutorial CSP [Pointers, structs and unions]
+LA08 [history of computing, x86 instruction]
+CSP07 [Dynamic Memory Allocation, malloc, free]
+CSP08 [Structs and Memory Allocation, Person Example]
+
+week 5 (13-17 Feb)
+
+LA09 [assembler, compilers, clang, ISA: registers and operations]
+Tutorial: LA [combinational circuits, truth tables, gate delay, SR latch]
+LA10 [ISA: addressing and CISC/RISC, x86-64]
+PRACTICAL (35%): C & Logic
+CSP09 [Character I/O, Streams]
+CSP10 [More Dynamic Memory, byte array operations, setjmp/longjmp]
+
+week 6 (20 Feb - 24 Feb)
+
+LA11 [x86: addressing, examples of assembler, function calling]
+Tutorial CSP [Pointers, Dynamic Memory Allocation]
+LA12 [gcc, RIP relative addressing, stack frames, more on function calling]
+CSP11 [Introduction to Systems Programming + Simple File I/O]
+CSP12 [Files and Directories]
+
+** VACATION 27 - 3 Feb **
+
+week 7 (6-10 Mar)
+
+LA13 [instruction groups, examples]
+Tutorial: LA [binary numbers, assembly]
+LA14 [optimisation, memory]
+CSP13 [Intro to Processes, fork]
+CSP14 [Processes &Virtual Memory, fork, exec, pipes]
+
+week 8 (13-17 March)
+
+LA15 [caching]
+Tutorial CSP [File I/O, Files and Directories]
+LA16 [MIPS, pipelining]
+PRACTICAL (30%): Architecture [x86 assembler, use of stack]
+CSP15 [Signal Handling]
+CSP16 [Threads & Processes, create, join]
+
+week 9 (20-24 March)
+
+LA17 [control hazards, advanced parallel execution, ARM]
+Tutorial: LA [locality, cache, pipelined, hazards]
+CSP17 [Thread Synchronisation, Concurrency Control]
+CSP18 [Inter-Process Communication]
+
+week 10 (27-31 March)
+
+CSP19 [IPC Shared Memory]
+Tutorial CSP [Processes and Threads]
+CSP19 [IPC Examples]
+
+week 11 (3-7 April)
+
+PRACTICAL (35%): SP
+
+week 12 (10-14 April) REVISION
+
+week 13 (17-21 April) REVISION Exams begin Sat 22 April
