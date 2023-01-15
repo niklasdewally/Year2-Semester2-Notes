@@ -1,0 +1,16 @@
+#!/bin/bash 
+
+# Generate slides with 3 per-page and 2 per page layouts, with room for notetaking on the
+# side niklas dewally 2022
+
+mkdir -p 3up mkdir -p 2up
+
+# 2up
+pdfjam --batch --landscape --nup '1x2' --scale '0.9' --delta '0cm 1cm' --offset '-8cm 0cm' \
+--frame true  -o 2up/ "$@"
+
+# 3up
+pdfjam --batch --scale 0.7 --nup '1x3' --delta '0cm 3cm' --offset '-5cm 0cm' --frame true \
+-o 3up/ *.pdf "$@"
+
+#vim:textwidth=90
