@@ -5,12 +5,18 @@
 
 mkdir -p 3up mkdir -p 2up
 
+# NOTE: Explicitly specify a4paper, otherwise my Mac and the printer gets confused, and does not print it
+# ( this was NOT a printer driver issue )
+#
+# Inspired by:
+# https://unix.stackexchange.com/questions/146852/print-pdf-scaled-down-and-aligned
+
 # 2up
-pdfjam --batch --landscape --nup '1x2' --scale '0.9' --delta '0cm 1cm' --offset '-8cm 0cm' \
+pdfjam --batch --a4paper --landscape --nup '1x2' --scale '0.9' --delta '0cm 1cm' --offset '-8cm 0cm' \
 --frame true  -o 2up/ "$@"
 
 # 3up
-pdfjam --batch --scale 0.7 --nup '1x3' --delta '0cm 3cm' --offset '-5cm 0cm' --frame true \
+pdfjam --batch --a4paper --scale 0.7 --nup '1x3' --delta '0cm 3cm' --offset '-5cm 0cm' --frame true \
 -o 3up/ *.pdf "$@"
 
 #vim:textwidth=90
